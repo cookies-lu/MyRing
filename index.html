@@ -1,0 +1,159 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>My Ring</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image" href="fav.ico" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".mainmenu-area">
+    <!-- Preloader-content -->
+    <div class="preloader">
+        <span><i class="lnr lnr-sun"></i></span>
+    </div>
+    <!-- Home-Area -->
+    <header class="home-area overlay" id="home_page">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-xs-12 col-md-12" align="center">
+                        <h1 id="logo" class= "circle wow fadeInUp" data-wow-delay="0.4s">My Ring</h1>
+                        <h1 id="days" class= "circle wow fadeInUp displaynone hidden" data-wow-delay="0.4s"></h1>
+                    <div class="space-20"></div>
+                    <div id="slogan" class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>Personal contraceptive ring calendar</p>
+                    </div>
+                    <div id="dateOut" class="desc wow fadeInUp displaynone hidden" data-wow-delay="0.6s">
+                            <br>
+                    </div>
+                    <div class="space-20"></div>
+                    <div id="cycleIn" class="desc wow fadeInUp displaynone hidden" data-wow-delay="0.6s">
+                            <br>
+                    </div>
+                    <div id="inCalendar" class="desc wow fadeInUp displaynone hidden" data-wow-delay="0.6s">
+                            <br>
+                        </div>
+                        <div id="cycleOut" class="desc wow fadeInUp displaynone hidden" data-wow-delay="0.6s">
+                                <br>
+                        </div>
+                        <br>
+                        <div id="outCalendar" class="desc wow fadeInUp displaynone hidden" data-wow-delay="0.6s">
+                                <div class="space-20"></div>
+                                <br>
+                            </div>
+                            <div id="dteIn" class="desc wow fadeInUp displaynone hidden" data-wow-delay="0.6s">
+                                    <br>
+                            </div>
+                    <div id="daysIn" class="desc wow fadeInUp displaynone hidden" data-wow-delay="0.6s" >
+                           <form>
+                               Days I use the ring
+                                <input id="dIn" type="number" name="daysIn" style="width: 6%;"><br>
+                           </form>
+                        </div>
+                       
+                        <br>
+                        <div id="daysOut" class="desc wow fadeInUp displaynone hidden" data-wow-delay="0.6s" >
+                                <form>
+                                        Days I don't use the ring
+                                         <input id="dOut" type="number" name="daysOut" style="width: 6%;"><br>
+                                    </form>
+                            </div>
+                            <br>
+                            <div id="dateIn" class="desc wow fadeInUp displaynone hidden" data-wow-delay="0.6s">
+                                    <form>
+                                            The day I started using the ring
+                                             <input id="dtIn" type="date" name="dateIn" style="width: 22%;"><br>
+                                        </form>
+                                </div>
+                                
+                                
+                                <br>
+                               
+                    </br>
+                    <a href="#" id="loginBtn" class="bttn-white wow fadeInUp" data-wow-delay="0.8s"><i class="lnr lnr-enter"></i>Log In</a>
+                    <a href="#" id="logoutBtn" class="bttn-white wow fadeInUp displaynone hidden" data-wow-delay="0.4s"><i class="lnr lnr-exit"></i>Log Out</a>
+                    <a href="#" id="changeCycle" class="bttn-white wow fadeInUp displaynone hidden" data-wow-delay="0.4s"><i class="lnr lnr-cog"></i>Change Cycle</a>
+                    <a href="#" id="saveBtn" class="bttn-white wow fadeInUp displaynone hidden" data-wow-delay="0.4s"><i class="lnr lnr-star"></i>Save</a>
+                </div>
+
+
+                
+            </div>
+        </div>
+    </header>
+    	<!-- Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content" 
+            style="display: inline-block; margin-top: 24%; margin-left: 41%; padding: 1%;">
+                <span class="close">&times;</span>
+                <p>Place wallet keyfile to register your ring cycle</p>
+                <input type="file" id="keychoose" />
+            </div>
+        </div>
+    <!-- Home-Area-End -->
+        <!-- Footer-Bootom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12" align="center">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="lnr lnr-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></span>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-Bootom-End -->
+    </footer>
+    <!-- Footer-Area-End -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr">
+    </script>  
+    <!--Vendor-JS-->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/jquery-ui.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!--Plugin-JS-->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/ajaxchimp.js"></script>
+    <script src="js/scrollUp.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/login.js"></script>
+    <!--Main-active-JS-->
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/arweave/bundles/web.bundle.min.js"></script>
+    <script>
+        const arweave = Arweave.init({
+            host: "arweave.net",
+            port: 443,
+            protocol: "https",
+            timeout: 20000,
+            logging: false
+        });
+        arweave.network.getInfo().then(console.log);
+    </script>
+</body>
+
+</html>
